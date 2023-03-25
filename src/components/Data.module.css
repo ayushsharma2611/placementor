@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Ubuntu&display=swap');
+
+.comp_name{
+  text-align: center;
+  margin: 2rem;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_discription{
+  display: flex;
+}
+.temp{
+  font-style: italic;
+  padding:20px 40px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.logo_small{
+  min-height: 80px;
+  min-width: 100px;
+  max-height:200px;
+  max-width: 250px;
+  position:relative;
+  top: 8px;
+  margin-bottom:50px;
+  z-index:2;
+  object-fit: fill;
+}
+.company_name{
+    font-size: 2.5rem;
+  color:rgba(138, 94, 191, 1) ;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.main_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(207, 203, 204);
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.data_container{
+  display: flex;
+  flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   height: fit-content;
+   color:rgba(238, 109, 152, 1);
+ 
+  }
+
+.frosty{
+  text-align: center;
+  width: 100%;
+  margin:auto;
+  height: fit-content;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+}
+
+.info_section {
+  list-style-type: none;
+  color: rgb(254, 253, 244);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+
+
+.heading{
+  font-size: 1.5rem;
+  text-align: center;
+font-family: 'Ubuntu', sans-serif;
+color: rgba(238, 109, 152, 1);
+}
+@media screen and (max-width:600px) {
+  .logo_discription{
+      flex-direction: column-reverse;
+      text-align: center;
+      
+  }
+.temp{
+  justify-content: center;
+  padding: 0.8rem;
+}
+  .data_container{
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
